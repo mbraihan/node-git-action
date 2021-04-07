@@ -1,0 +1,29 @@
+{
+  "name": "git-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mraihan19/node-git-action.git"
+  },
+  "author": "Mohammad Raihanul Bashar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mraihan19/node-git-action/issues"
+  },
+  "homepage": "https://github.com/mraihan19/node-git-action#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.2",
+    "supertest": "^6.1.3"
+  },
+  "scripts":{
+    "test": "mocha ./test/* --exit"
+  }
+}
