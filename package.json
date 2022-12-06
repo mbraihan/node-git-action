@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/mraihan19/node-git-action#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "mocha": "^8.3.2",
